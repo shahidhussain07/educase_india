@@ -21,7 +21,7 @@ A RESTful API built with Node.js, Express, and Sequelize for managing schools, i
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/shahidhussain07/educase_india.git
-cd school-management-api
+cd educase_india
 ```
 
 ### 2️⃣ Install Dependencies
@@ -90,6 +90,4 @@ GET /api/schools?latitude=19.07&longitude=72.87
 ## 🚀 Deployment
 
 Deployed on Render.com with MySQL on Railway.app.
-
-
 
