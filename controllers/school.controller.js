@@ -5,6 +5,7 @@ const calculateDistance = (lat1, lon1, lat2, lon2) => {
 	const toRad = value => (value * Math.PI) / 180
 	const R = 6371 // Radius of Earth in km
 
+	// Haversine formula
 	const dLat = toRad(lat2 - lat1)
 	const dLon = toRad(lon1 - lon2)
 
